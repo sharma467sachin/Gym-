@@ -26,6 +26,7 @@ header {
 nav {
     margin: 1px;
     padding-left: 16px;
+    border: none;
 }
 
 li a {
