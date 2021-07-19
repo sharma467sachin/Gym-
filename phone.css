@@ -1,9 +1,9 @@
 .logo img {
-    padding-top: 9px;
-    height: 35px;
-    padding-left: 9px;
+    padding-top: 12px;
+    height: 36px;
+    padding-left: 13px;
     position: fixed;
-    top: 5px;
+    top: 4px;
 }
 
 header::before {
