@@ -14,7 +14,7 @@ header::before {
     width: 104%;
     height: 62%;
     z-index: -1;
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 header {
@@ -73,10 +73,10 @@ li a {
     width: 102%;
     height: 59%;
     z-index: -1;
-    opacity: 0.3;
+    opacity: 0.4;
 }
 .us h1 {
-    padding-top: 23px;
+    padding-top: 10px;
     word-spacing: 5px;
     padding-left: 53px;
     font-size: 20px;
@@ -106,10 +106,10 @@ li a {
     width: 99%;
     height: 64%;
     z-index: -1;
-    opacity: 0.8;
+    opacity: 0.5;
 }
 .equip h1 {
-    padding-top: 65px;
+    padding-top: 40px;
     word-spacing: 4px;
     padding-right: 15px;
     font-size: 20px;
