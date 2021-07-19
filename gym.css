@@ -1,0 +1,253 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+
+}
+nav{
+   border: 2px solid white;
+   border-radius: 10px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+    
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.navigation li{
+list-style: none;
+font-family: 'Bree Serif', serif;
+z-index:1.5;
+justify-content: center;
+}
+
+li a{
+    padding: 2px 45px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    z-index: 1;
+    justify-content: center;
+
+    
+}
+li a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 0, 170);
+    
+}
+
+header::before{
+    content: "";
+    background: url('img/gym2.jfif') no-repeat center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+opacity: 0.3;
+
+}
+
+#main h1{
+    padding-top: 150px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    word-spacing: 8px;
+}
+#main p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    padding-top: 20px;
+    font-size: 20px;
+    word-spacing: 5px;
+    line-height: 30px;
+
+}
+
+#main{
+    width: 1000px;
+    height: 640px;
+    margin: auto;  
+}
+.equip{
+    display: flex;
+    flex-direction: row-reverse;
+    color: white;
+    justify-content: right;
+    height: 100%;
+
+}
+
+.equip::before{
+    content:"";
+    background: url('img/equip5.jpg') no-repeat center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    
+
+}
+.equip h1{
+    padding-top: 50px;
+    word-spacing: 15px;
+    padding-right: 180px;
+ 
+}
+
+.equip p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    padding-top: 20px;
+    font-size: 20px;
+    word-spacing: 5px;
+    line-height: 30px;
+}
+#equ{
+    width: 659px;
+    height: 600px;
+    padding-left: 850px;
+}
+
+#equ p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    word-spacing: 5px;
+    line-height: 30px;
+    padding: 41px 37px;
+    width: 512px;
+    height: 452px;
+}
+
+.join{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    height: 100%;
+
+}
+.join h1{
+    padding-top: 50px;
+}
+
+.join::before{
+    content:"";
+    background: url('img/hand2.jpg') no-repeat center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+
+.entry{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    width: 600px;
+    height: 420px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px 20px;
+    padding-top: 116px;
+    text-align: center;
+}
+
+.form{
+    padding: 16px ;
+    size: 10px;
+}
+
+input{
+    width: 333px;
+    height: 25px;
+    border-radius: 5px;
+}
+.btn{
+    color: white;
+    font-size: large;
+    padding: 16px;
+    margin: auto;
+    width: 333px;
+    text-decoration: none;
+    background-color: black;
+}
+.us{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    height: 100%;
+
+}
+
+.us::before{
+    content:"";
+    background: url('img/about.jpg') no-repeat center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    
+
+}
+.us h1{
+    padding-top: 50px;
+    word-spacing: 15px;
+    padding-left: 354px;
+
+ 
+}
+
+
+#about{
+    width: 1050px;
+    height: 572px;
+    padding-left: 139px;
+    padding-top: 27px;
+}
+
+#about p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+    font-size: 20px;
+    word-spacing: 5px;
+    line-height: 30px;
+    
+    padding: 39px 17px;
+    width: 602px;
+    height: 311px;
+}
+.logo img {
+    padding-top: 2px;
+    height: 85px;
+    padding-left: 29px;
+    position: fixed;
+    top: 8px;
+}
+

@@ -1,0 +1,172 @@
+header::before {
+    content: "";
+    background: url(img/main.jpg) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    width: 105%;
+    height: 67%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1px;
+    width: 313px;
+}
+nav {
+    margin: -3px;
+    padding-right: 11px;
+}
+li a {
+    padding: 6px 10px;
+    text-decoration: none;
+    font-size: 11px;
+    color: white;
+    z-index: 1;
+}
+#main {
+    width: 317px;
+    height: 183px;
+    margin: 2px;
+}
+#main h1 {
+    padding-top: 45px;
+    color: white;
+    font-size: 20px;
+    word-spacing: 3px;
+    margin: auto auto;
+    padding-left: 13px;
+}
+
+#main p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 40px;
+    font-size: 10px;
+    word-spacing: 1px;
+    line-height: 22px;
+    padding-left: 10px;
+    margin: auto auto;
+}
+.us {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    height: 76%;
+}
+.us::before {
+    content: "";
+    background: url(img/about.jpg) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    width: 214%;
+    height: 77%;
+    z-index: -1;
+    opacity: 0.3;
+    margin: 187px -365px;
+}
+.us h1 {
+    padding-top: 220px;
+    word-spacing: 5px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+#about {
+   padding-left: 13px ;
+   height: 380px;
+   width: 306px;
+   padding-top: 5px;
+}
+#about p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1px;
+    font-size: 9px;
+    word-spacing: 1px;
+    line-height: 22px;
+    padding: 1px 2px;
+    width: 174px;
+    height: 389px;
+}
+.equip::before {
+    content: "";
+    background: url(img/equip5.jpg) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    width: 101%;
+    height: 94%;
+    z-index: -1;
+    opacity: 0.8;
+}
+.equip h1 {
+    padding-top: 50px;
+    word-spacing: 5px;
+    padding-right: 15px;
+    font-size: 20px;
+}
+#equ {
+    width: 259px;
+    height: 531px;
+    padding-left: 65px;
+}
+#equ p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    word-spacing: 3px;
+    line-height: 22px;
+    padding: 0px 1px;
+    width: 243px;
+    height: 528px;
+}
+.join::before {
+    content: "";
+    background: url(img/hand2.jpg) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    width: 101%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+.join h1 {
+    padding-top: 0px;
+    font-size: 20px;
+}
+
+.entry {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    width: 260px;
+    height: 433px;
+    padding-top: 60px;
+    text-align: center;
+}
+.form {
+    padding: 15px;
+    size: 9px;
+}
+input {
+    width: 219px;
+    height: 25px;
+    border-radius: 5px;
+}
+.btn {
+    color: white;
+    font-size: large;
+    padding: 11px;
+    margin: auto;
+    width: 213px;
+    text-decoration: none;
+    background-color: black;
+}
+.logo img {
+    padding-top: 9px;
+    height: 21px;
+    padding-left: 9px;
+    position: fixed;
+    top: 5px;
+}
