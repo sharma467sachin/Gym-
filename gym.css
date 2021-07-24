@@ -11,6 +11,8 @@ body{
 nav{
    border: 2px solid white;
    border-radius: 10px;
+    background-color: rgba(14, 10, 10, 0.8);
+   position: fixed;
 }
 
 header{
